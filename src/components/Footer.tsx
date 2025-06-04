@@ -52,7 +52,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-2 text-gray-400">
               <p>Phone: +91 7305762612</p>
-              <p>Email: info@pcbuilderpro.com</p>
+              <p>Email: indias.tech.builders@gmail.com</p>
               <button 
                 onClick={handleWhatsAppClick}
                 className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded mt-2 transition-colors"
