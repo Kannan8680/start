@@ -38,7 +38,7 @@ const Contact = () => {
               <p className="font-semibold">Email</p>
               <p className="text-gray-300">
                 <a href="mailto:info@pcbuilderpro.com" className="hover:underline">
-                  info@pcbuilderpro.com
+                  indias.tech.builders@gmail.com
                 </a>
               </p>
             </div>
@@ -48,7 +48,7 @@ const Contact = () => {
             <MapPin className="h-6 w-6 text-blue-400 mt-1" />
             <div>
               <p className="font-semibold">Location</p>
-              <p className="text-gray-300">Serving nationwide</p>
+              <p className="text-gray-300">Chennai,Tamilnadu</p>
             </div>
           </div>
 
