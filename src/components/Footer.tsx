@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Monitor className="h-8 w-8 text-blue-500" />
-              <span className="text-2xl font-bold">I T B</span>
+              <span className="text-2xl font-bold">ITB</span>
             </div>
             <p className="text-gray-400 mb-4">
               Building exceptional PCs tailored to your needs. Quality, performance, and reliability guaranteed.
