@@ -1,10 +1,12 @@
-
 import { ArrowRight, Zap } from "lucide-react";
+import AnimatedShakeWheelButton from "./AnimatedShakeWheelButton";
 
 const Hero = () => {
   const handleBuildPCClick = () => {
-    // Replace this URL with your actual Google Form URL
-    window.open("https://docs.google.com/forms/d/e/1FAIpQLSdsIHL0t6ncDmUvefH5kcwqXrl8KLVsMzZPkRoVg2EnptfLqg/viewform?usp=dialog", "_blank");
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSdsIHL0t6ncDmUvefH5kcwqXrl8KLVsMzZPkRoVg2EnptfLqg/viewform?usp=dialog",
+      "_blank"
+    );
   };
 
   return (
@@ -18,14 +20,13 @@ const Hero = () => {
             Custom PC builds tailored to your needs. Gaming, workstation, or office - we've got you covered.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button 
-              onClick={handleBuildPCClick}
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-lg"
-            >
-              <Zap className="h-5 w-5" />
-              <span>Build PC Now</span>
-              <ArrowRight className="h-5 w-5" />
-            </button>
+            <AnimatedShakeWheelButton onClick={handleBuildPCClick}>
+              <div className="flex items-center space-x-2 text-white font-semibold text-lg">
+                <Zap className="h-5 w-5" />
+                <span>Build PC Now</span>
+                <ArrowRight className="h-5 w-5" />
+              </div>
+            </AnimatedShakeWheelButton>
             <a 
               href="#services" 
               className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
