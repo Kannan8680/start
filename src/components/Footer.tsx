@@ -8,6 +8,16 @@ const Footer = () => {
 
   return (
     <footer className="bg-black text-white py-12">
+       <div>
+            <h3 className="text-lg font-semibold mb-4"> </h3>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#" className="hover:text-white"> </a></li>
+              <li><a href="#" className="hover:text-white"></a></li>
+              <li><a href="#" className="hover:text-white"></a></li>
+              <li><a href="#" className="hover:text-white"></a></li>
+            </ul>
+          </div>
+      
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
