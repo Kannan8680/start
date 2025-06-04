@@ -26,15 +26,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white">Gaming PCs</a></li>
-              <li><a href="#" className="hover:text-white">Workstations</a></li>
-              <li><a href="#" className="hover:text-white">Home & Office PCs</a></li>
-              <li><a href="#" className="hover:text-white">Custom Builds</a></li>
-            </ul>
-          </div>
+       
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Support</h3>
