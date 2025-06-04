@@ -183,14 +183,15 @@ const AnimatedShakeWheelButton = ({ onClick, children }) => {
         <svg
           className="wheel"
           viewBox="0 0 64 64"
-          fill="none"
+          fill="white"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="32" cy="32" r="30" stroke="white" strokeWidth="4" />
-          <line x1="32" y1="2" x2="32" y2="62" stroke="white" strokeWidth="3" />
-          <line x1="2" y1="32" x2="62" y2="32" stroke="white" strokeWidth="3" />
-          <line x1="12" y1="12" x2="52" y2="52" stroke="white" strokeWidth="3" />
-          <line x1="52" y1="12" x2="12" y2="52" stroke="white" strokeWidth="3" />
+          <circle cx="32" cy="32" r="30" stroke="white" strokeWidth="4" fill="transparent"/>
+          <g transform="translate(32, 32)">
+            <path d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 Z" fill="white" transform="rotate(0)" />
+            <path d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 Z" fill="white" transform="rotate(120)" />
+            <path d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 Z" fill="white" transform="rotate(240)" />
+          </g>
         </svg>
       </button>
     </>
