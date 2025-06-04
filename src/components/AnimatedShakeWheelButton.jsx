@@ -183,14 +183,34 @@ const AnimatedShakeWheelButton = ({ onClick, children }) => {
         <svg
           className="wheel"
           viewBox="0 0 64 64"
-          fill="white"
+          fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="32" cy="32" r="30" stroke="white" strokeWidth="4" fill="transparent"/>
+          <circle
+            cx="32"
+            cy="32"
+            r="30"
+            stroke="white"
+            strokeWidth="4"
+            fill="transparent"
+          />
           <g transform="translate(32, 32)">
-            <path d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 Z" fill="white" transform="rotate(0)" />
-            <path d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 Z" fill="white" transform="rotate(120)" />
-            <path d="M0,-20 C10,-20 20,-10 20,0 C20,10 10,20 0,20 Z" fill="white" transform="rotate(240)" />
+            {/* Three fan blades shaped as arcs with gaps */}
+            <path
+              d="M0,-22 A10,10 0 0,1 8.66,-17.5 L4,0 Z"
+              fill="white"
+              transform="rotate(0)"
+            />
+            <path
+              d="M0,-22 A10,10 0 0,1 8.66,-17.5 L4,0 Z"
+              fill="white"
+              transform="rotate(120)"
+            />
+            <path
+              d="M0,-22 A10,10 0 0,1 8.66,-17.5 L4,0 Z"
+              fill="white"
+              transform="rotate(240)"
+            />
           </g>
         </svg>
       </button>
