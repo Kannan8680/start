@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Monitor className="h-8 w-8 text-blue-500" />
-            <span className="text-2xl font-bold">PC Builder Pro</span>
+            <span className="text-2xl font-bold">ITB</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">
