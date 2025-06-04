@@ -25,6 +25,15 @@ const Footer = () => {
               <Youtube className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
             </div>
           </div>
+            <div>
+            <h3 className="text-lg font-semibold mb-4"> </h3>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#" className="hover:text-white"> </a></li>
+              <li><a href="#" className="hover:text-white"></a></li>
+              <li><a href="#" className="hover:text-white"></a></li>
+              <li><a href="#" className="hover:text-white"></a></li>
+            </ul>
+          </div>
 
        
 
