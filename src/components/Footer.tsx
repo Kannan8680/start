@@ -1,5 +1,5 @@
 
-import { Cpu, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { Monitor, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
