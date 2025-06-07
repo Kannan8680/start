@@ -1,4 +1,4 @@
-import { Monitor, Menu, X } from "lucide-react";
+import { Cpu, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Monitor className="h-8 w-8 text-blue-500" />
+              <Cpu className="h-8 w-8 text-blue-500" />
               <span className="text-2xl animated-itb">ITB</span>
             </div>
 
