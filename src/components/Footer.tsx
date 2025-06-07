@@ -19,12 +19,37 @@ const Footer = () => {
               Building exceptional PCs tailored to your needs. Quality,
               performance, and reliability guaranteed.
             </p>
-            <div className="flex space-x-4">
-              <Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
-              <Twitter className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
-              <Instagram className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
-              <Youtube className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
-            </div>
+          <div className="flex space-x-4">
+  <a
+    href="https://facebook.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
+  </a>
+  <a
+    href="https://twitter.com/yourhandle"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Twitter className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
+  </a>
+  <a
+    href="https://instagram.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Instagram className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
+  </a>
+  <a
+    href="https://youtube.com/yourchannel"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Youtube className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
+  </a>
+</div>
+
           </div>
 
           {/* Empty Column – Can be removed or filled later */}
